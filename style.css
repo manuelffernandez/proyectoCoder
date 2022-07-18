@@ -17,6 +17,11 @@
 	--color-dark-blue: #2B3F80;
 	--color-yellow:  #F4B942;
 	--color-light-yellow: #fad487;
+
+	--nav-anim-dur: 300ms;
+	--nav-item-delay: 350ms;
+	--img-dur: 250ms;
+	--img-delay: 600ms;
 }
 
 * {
@@ -59,6 +64,9 @@ a {
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
+
+	opacity: 0%;
+	animation: img-load var(--img-dur) ease-out var(--img-delay) forwards;
 }
 
 .row2__titleRow,
@@ -94,6 +102,17 @@ a {
 }
 
 
+@keyframes img-load {
+	0% {
+		opacity: 0%;
+	}
+	100% {
+		opacity: 100%;
+	}
+}
+
+
+
 
 
 
@@ -116,19 +135,30 @@ a {
 
 	font-weight: 300;
 	background-color: var(--color-blue);
+
+	transform: translateY(-100%);
+	animation-name: nav-load;
+	animation-duration: var(--nav-anim-dur);
+	animation-fill-mode: forwards;
 }
 
 .mainNav__headerLogo {
 	grid-area: a;
+	opacity: 0%;
+	animation: nav-item-load var(--nav-anim-dur) ease-out var(--nav-item-delay) forwards;
 }
 
 .mainNav__listCont {
 	grid-area: b;
+	opacity: 0%;
+	animation: nav-item-load var(--nav-anim-dur) ease-out var(--nav-item-delay) forwards;
 }
 
 .mainNav__resp {
 	grid-area: c;
 	margin-left: auto;
+	opacity: 0%;
+	animation: nav-item-load var(--nav-anim-dur) ease-out var(--nav-item-delay) forwards;
 }
 
 .mainNav__resp__label {
@@ -188,6 +218,27 @@ a {
 
 .mainNav__resp__weather__graphCont__temp__unit {
 	color: var(--color-white);	
+}
+
+
+@keyframes nav-load {
+	0% {
+		transform: translateY(-100%);
+	}
+
+	100% {
+		transform: translateY(0);	
+	}
+}
+
+@keyframes nav-item-load {
+	0% {
+		opacity: 0%;
+	}
+
+	100% {
+		opacity: 100%;
+	}
 }
 
 
