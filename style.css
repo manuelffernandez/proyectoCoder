@@ -20,6 +20,8 @@
 
 	--nav-anim-dur: 300ms;
 	--nav-item-delay: 350ms;
+	--img-dur: 250ms;
+	--img-delay: 100ms;
 }
 
 * {
@@ -62,6 +64,9 @@ a {
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
+
+	opacity: 0%;
+	animation: img-load var(--img-dur) ease-out var(--img-delay) forwards;
 }
 
 .row2__titleRow,
@@ -95,6 +100,17 @@ a {
 	word-spacing: 0.5em;
 	letter-spacing: 0.15em;
 }
+
+
+@keyframes img-load {
+	0% {
+		opacity: 0%;
+	}
+	100% {
+		opacity: 100%;
+	}
+}
+
 
 
 
