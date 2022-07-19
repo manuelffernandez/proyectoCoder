@@ -58,6 +58,7 @@ body {
 	align-items: center;
 
 	font-size: 50px;
+	animation: spin 2s linear infinite;
 }
 
 .container__two {
@@ -72,4 +73,11 @@ body {
 	text-decoration: none;
 	background-color: var(--color-blue);
 	color: var(--color-white);
+}
+
+
+@keyframes spin {
+	100% {
+		transform: rotate(360deg);
+	}
 }
