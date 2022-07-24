@@ -44,110 +44,154 @@
 		</nav>
 	</header>
 	<main>
-		<div class="row1 row">
-		</div>
-		<section class="row2 row">
-			<div class="row2__titleRow">
-				<div class="row2__titleRow__cont">
-					<h2 class="row2__titleRow__cont__title title">Viví nuestras actividades</h2>
+		<section>
+			<div id="myCarousel" class="carousel slide" data-bs-ride="false">
+				<div class="carousel-indicators">
+					<button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+					<button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+					<button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+				</div>
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<div class="slide__img slide__img1"></div>
+						<div class="container carousel__data__cont">
+							<div class="d-flex flex-wrap justify-content-center logo__cont">
+								<img src="./img/icons/logoIcon3.png" >
+								<h2 class="text-uppercase text-center">Centro de ski</h2>
+							</div>
+							<div class="container-fluid d-flex flex-column justify-content-center d-sm-block">
+								<p class="text-center text-sm-start">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni quod vel voluptatibus libero quisquam voluptas vero ex perferendis. A, facere sapiente error quidem architecto cumque.</p>
+								<a href="./notReady/notReady.html" class="btn btn-md btn-primary">Como llegar</a>
+							</div>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<div class="slide__img slide__img2"></div>
+						<div class="container carousel__data__cont">
+							<div class="d-flex flex-wrap justify-content-center logo__cont">
+								<img src="./img/icons/logoIcon3.png" >
+								<h2 class="text-uppercase text-center">Conocé la magia</h2>
+							</div>
+							<div class="container-fluid d-flex flex-column justify-content-center d-sm-block">
+								<p class="text-center text-sm-start">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni quod vel voluptatibus libero quisquam voluptas vero ex perferendis. A, facere sapiente error quidem architecto cumque.</p>
+								<a href="./notReady/notReady.html" class="btn btn-md btn-primary">Fotos y más</a>
+							</div>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<div class="slide__img slide__img3"></div>
+						<div class="container carousel__data__cont">
+							<div class="d-flex flex-wrap justify-content-center logo__cont">
+								<img src="./img/icons/logoIcon3.png" >
+								<h2 class="text-uppercase text-center">Enterate de todo</h2>
+							</div>
+							<div class="container-fluid d-flex flex-column justify-content-center d-sm-block">
+								<p class="text-center text-sm-start">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni quod vel voluptatibus libero quisquam voluptas vero ex perferendis. A, facere sapiente error quidem architecto cumque.</p>
+								<a href="./pages/state.html" class="btn btn-md btn-primary">Medios</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Previous</span>
+				</button>
+				<button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Next</span>
+				</button>
+			</div>
+		</section>
+		<section>
+			<div class="container">
+				<h1 class="text-center m-3 text-uppercase">Viví <span class="title__active__y">Lhotse</span></h1>
+				<p class="fst-italic text-center mb-3">Sentí la experiencia de la montaña en nuestro centro de ski y llevate un recuerdo único.</p>
+			</div>
+			<div class="container mb-5">
+				<div class="row">
+					<div class="offset-1 col-10">
+						<hr>
+					</div>
 				</div>
 			</div>
-			<div class="row2__buttonsRow">
-				<div class="row2__buttonsRow__cont">
-					<button class="row2__buttonsRow__cont__button title">Summer</button>
-					<button class="row2__buttonsRow__cont__button title">Winter</button>
-				</div>
-			</div>
-			<div class="row2__actGrid">
-				<div class="row2__actGrid__act sum">
-					<section class="row2__actGrid__act__card sum__card">
-						<img src="./img/main/actSum1.jpg" class="row2__actGrid__act__card__img" height="300px" alt="Chicos caminando por sendero">
-						<div class="row2__actGrid__act__card__data">
-							<h3 class="row2__actGrid__act__card__data__title title">Actividad de verano 1</h3>
-							<p class="row2__actGrid__act__card__data__text">Lorem ipsum dolor sit, amet consectetur adipisicing, elit. Possimus in, officia distinctio deleniti ducimus rem inventore. Voluptatibus sapiente tempore in eaque, itaque commodi placeat eius assumenda nihil dicta, numquam accusamus totam laboriosam officia est labore porro vitae tenetur iusto asperiores.</p>
-							<a href="./notReady/notReady.html" class="row2__actGrid__act__card__data__button">Conocer más</a>
+			<div class="container mb-5">
+				<div class="row g-3">
+					<div class="col-12 col-sm-6 col-lg-4">
+						<div class="card">
+							<img src="./img/main/actSum1.jpg" alt="Niños caminando" class="card-img-top">
+							<div class="card-body">
+								<p class="card-title text-uppercase h5 fw-semibold">Titulo de actividad</p>
+								<p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing, elit. Possimus in, officia distinctio deleniti ducimus rem inventore. Voluptatibus sapiente tempore in eaque, itaque commodi placeat eius assumenda nihil dicta, numquam accusamus totam laboriosam officia est labore porro vitae tenetur iusto asperiores.</p>
+								<a href="./notReady/notReady.html" class="btn btn-primary card__btn text-uppercase">Conocer más</a>
+							</div>
 						</div>
-					</section>
-					<section class="row2__actGrid__act__card sum__card">
-						<img src="./img/main/actSum2.jpg" class="row2__actGrid__act__card__img" height="300px" alt="Ciclista en sendero de la montaña">
-						<div class="row2__actGrid__act__card__data">
-							<h3 class="row2__actGrid__act__card__data__title title">Actividad de verano 2</h3>
-							<p class="row2__actGrid__act__card__data__text">Lorem ipsum dolor sit, amet consectetur adipisicing, elit. Possimus in, officia distinctio deleniti ducimus rem inventore. Voluptatibus sapiente tempore in eaque, itaque commodi placeat eius assumenda nihil dicta, numquam accusamus totam laboriosam officia est labore porro vitae tenetur iusto asperiores.</p>
-							<a href="./notReady/notReady.html" class="row2__actGrid__act__card__data__button">Conocer más</a>
+					</div>
+					<div class="col-12 col-sm-6 col-lg-4">
+						<div class="card">
+							<img src="./img/main/actSum2.jpg" alt="Ciclista descendiendo" class="card-img-top">
+							<div class="card-body">
+								<p class="card-title text-uppercase h5 fw-semibold">Titulo de actividad</p>
+								<p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing, elit. Possimus in, officia distinctio deleniti ducimus rem inventore. Voluptatibus sapiente tempore in eaque, itaque commodi placeat eius assumenda nihil dicta, numquam accusamus totam laboriosam officia est labore porro vitae tenetur iusto asperiores.</p>
+								<a href="./notReady/notReady.html" class="btn btn-primary card__btn text-uppercase">Conocer más</a>
+							</div>
 						</div>
-					</section>
-					<section class="row2__actGrid__act__card sum__card">
-						<img src="./img/main/actSum3.jpg" class="row2__actGrid__act__card__img" height="300px" alt="Pareja caminando por la montaña atardecer">
-						<div class="row2__actGrid__act__card__data">
-							<h3 class="row2__actGrid__act__card__data__title title">Actividad de verano 3</h3>
-							<p class="row2__actGrid__act__card__data__text">Lorem ipsum dolor sit, amet consectetur adipisicing, elit. Possimus in, officia distinctio deleniti ducimus rem inventore. Voluptatibus sapiente tempore in eaque, itaque commodi placeat eius assumenda nihil dicta, numquam accusamus totam laboriosam officia est labore porro vitae tenetur iusto asperiores.</p>
-							<a href="./notReady/notReady.html" class="row2__actGrid__act__card__data__button">Conocer más</a>
+					</div>
+					<div class="col-12 col-sm-6 col-lg-4">
+						<div class="card">
+							<img src="./img/main/actSum3.jpg" alt="Caminantes puesta de sol" class="card-img-top">
+							<div class="card-body">
+								<p class="card-title text-uppercase h5 fw-semibold">Titulo de actividad</p>
+								<p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing, elit. Possimus in, officia distinctio deleniti ducimus rem inventore. Voluptatibus sapiente tempore in eaque, itaque commodi placeat eius assumenda nihil dicta, numquam accusamus totam laboriosam officia est labore porro vitae tenetur iusto asperiores.</p>
+								<a href="./notReady/notReady.html" class="btn btn-primary card__btn text-uppercase">Conocer más</a>
+							</div>
 						</div>
-					</section>
-				</div>
-				<div class="row2__actGrid__act win">
-					<section class="row2__actGrid__act__card win__card">
-						<img src="./img/main/actWin1.jpg" class="row2__actGrid__act__card__img" height="300px" alt="Snowboarder descendiendo con aerosillas de fondo">
-						<div class="row2__actGrid__act__card__data">
-							<h3 class="row2__actGrid__act__card__data__title title">Actividad de invierno 1</h3>
-							<p class="row2__actGrid__act__card__data__text">Lorem ipsum dolor sit, amet consectetur adipisicing, elit. Possimus in, officia distinctio deleniti ducimus rem inventore. Voluptatibus sapiente tempore in eaque, itaque commodi placeat eius assumenda nihil dicta, numquam accusamus totam laboriosam officia est labore porro vitae tenetur iusto asperiores.</p>
-							<a href="./notReady/notReady.html" class="row2__actGrid__act__card__data__button">Conocer más</a>
+					</div>
+					<div class="col-12 col-sm-6 col-lg-4">
+						<div class="card">
+							<img src="./img/main/actWin1.jpg" alt="Snowboarder descendiendo" class="card-img-top">
+							<div class="card-body">
+								<p class="card-title text-uppercase h5 fw-semibold">Titulo de actividad</p>
+								<p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing, elit. Possimus in, officia distinctio deleniti ducimus rem inventore. Voluptatibus sapiente tempore in eaque, itaque commodi placeat eius assumenda nihil dicta, numquam accusamus totam laboriosam officia est labore porro vitae tenetur iusto asperiores.</p>
+								<a href="./notReady/notReady.html" class="btn btn-primary card__btn text-uppercase">Conocer más</a>
+							</div>
 						</div>
-					</section>
-					<section class="row2__actGrid__act__card win__card">
-						<img src="./img/main/actWin2.jpg" class="row2__actGrid__act__card__img" height="300px" alt="Pareja de esquiadores fotografiando montañas nevadas de fondo">
-						<div class="row2__actGrid__act__card__data">
-							<h3 class="row2__actGrid__act__card__data__title title">Actividad de invierno 2</h3>
-							<p class="row2__actGrid__act__card__data__text">Lorem ipsum dolor sit, amet consectetur adipisicing, elit. Possimus in, officia distinctio deleniti ducimus rem inventore. Voluptatibus sapiente tempore in eaque, itaque commodi placeat eius assumenda nihil dicta, numquam accusamus totam laboriosam officia est labore porro vitae tenetur iusto asperiores.</p>
-							<a href="./notReady/notReady.html" class="row2__actGrid__act__card__data__button">Conocer más</a>
+					</div>
+					<div class="col-12 col-sm-6 col-lg-4">
+						<div class="card">
+							<img src="./img/main/actWin2.jpg" alt="Esquiador descendiendo salto" class="card-img-top">
+							<div class="card-body">
+								<p class="card-title text-uppercase h5 fw-semibold">Titulo de actividad</p>
+								<p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing, elit. Possimus in, officia distinctio deleniti ducimus rem inventore. Voluptatibus sapiente tempore in eaque, itaque commodi placeat eius assumenda nihil dicta, numquam accusamus totam laboriosam officia est labore porro vitae tenetur iusto asperiores.</p>
+								<a href="./notReady/notReady.html" class="btn btn-primary card__btn text-uppercase">Conocer más</a>
+							</div>
 						</div>
-					</section>
-					<section class="row2__actGrid__act__card win__card">
-						<img src="./img/main/actWin3.jpg" class="row2__actGrid__act__card__img" height="300px" alt="Esquiador saltando en una moto de nieve">
-						<div class="row2__actGrid__act__card__data">
-							<h3 class="row2__actGrid__act__card__data__title title">Actividad de invierno 3</h3>
-							<p class="row2__actGrid__act__card__data__text">Lorem ipsum dolor sit, amet consectetur adipisicing, elit. Possimus in, officia distinctio deleniti ducimus rem inventore. Voluptatibus sapiente tempore in eaque, itaque commodi placeat eius assumenda nihil dicta, numquam accusamus totam laboriosam officia est labore porro vitae tenetur iusto asperiores.</p>
-							<a href="./notReady/notReady.html" class="row2__actGrid__act__card__data__button">Conocer más</a>
+					</div>
+					<div class="col-12 col-sm-6 col-lg-4">
+						<div class="card">
+							<img src="./img/main/actWin3.jpg" alt="Salto moto de nieve" class="card-img-top">
+							<div class="card-body">
+								<p class="card-title text-uppercase h5 fw-semibold">Titulo de actividad</p>
+								<p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing, elit. Possimus in, officia distinctio deleniti ducimus rem inventore. Voluptatibus sapiente tempore in eaque, itaque commodi placeat eius assumenda nihil dicta, numquam accusamus totam laboriosam officia est labore porro vitae tenetur iusto asperiores.</p>
+								<a href="./notReady/notReady.html" class="btn btn-primary card__btn text-uppercase">Conocer más</a>
+							</div>
 						</div>
-					</section>
+					</div>
 				</div>
 			</div>
 		</section>
-		<div class="row3 row">
-			<div class="row3__logo">
-				<img src="./img/icons/logoIcon3.png" class="row3__logo__icon" width="60px" alt="Icono del logo en negativo">
-				<h2 class="row3__logo__title">Centro de Ski</h2>
+		<section>
+			<div class="container-fluid mb-4 imgCont">
+				<div class="imgCont__img"></div>
+				<div class="container h-100 d-flex flex-column justify-content-evenly align-items-center work__data">
+					<h3 class="text-center text-uppercase work__title">Unite al equipo <span class="title__active__b">Lhotse</span></h3>
+					<a href="./pages/work.html" class="btn btn-primary text-uppercase">Formulario</a>
+				</div>
 			</div>
-			<a href="./pages/location.html" class="row3__button">Como llegar</a>
-		</div>
-		<div class="row4 row">
-			<section class="row4__find">
-				<div class="row4__find__img"></div>
-				<!-- <img src="./img/main/main3.jpg" class="row4__find__img" alt="Foto en altura de pistas de ski en verano"> -->
-				<div class="row4__find__data">
-					<h2 class="row4__find__data__title title">DESCUBRINOS</h2>
-					<p class="row4__find__data__text">Este es un texto de resumen sobre el centro de ski, contando
-					brevemente sobre las actividades, ubicación, etc.
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita,
-					veritatis aliquid quisquam, explicabo corporis similique. Rerum placeat
-					illo ea dignissimos, voluptate a consequuntur, nam quasi in cum
-					asperiores quis officiis sunt, laboriosam alias quibusdam beatae vitae.
-					Necessitatibus veritatis officia maxime aperiam facilis officiis odit quae
-					voluptatum voluptate. Architecto dolores officiis harum delectus rerum
-					neque temporibus. Voluptas, dolores saepe quibusdam a pariatur
-					adipisci numquam dolor aut placeat optio ad expedita alias hic
-					veniam? Repellat explicabo unde, similique quos deleniti incidunt, sunt
-					accusantium perspiciatis ducimus culpa fugiat nulla cupiditate.</p>
-				</div>
-			</section>
-			<section class="row4__help">
-				<div class="row4__help__cont">
-					<h2 class="row4__help__cont__title title">NECESITAS AYUDA</h2>
-					<p class="row4__help__cont__text">¿Estás buscando ayuda para planear tus vacaciones?¿Querés saber más sobre nosotros? Porfavor entrá a la sección de
-					<a href="./notReady/notReady.html" class="row4__help__cont__text__link">contacto</a> y comincate con nosotros.</p>
-				</div>
-			</section>
-		</div>
+			<div class="container mb-5">
+				<h3 class="text-uppercase help__title">Necesitas ayuda</h3>
+				<p>¿Estás buscando ayuda para planear tus vacaciones?¿Querés saber más sobre el lugar? Porfavor entrá a la sección de <a href="./notReady/notReady.html" class="link">contacto</a> y comincate con nosotros.</p>
+			</div>
+		</section>
 	</main>
 	<footer>
 		<div class="container-fluid text-center footer">
@@ -200,7 +244,7 @@
 			</div>
 			<div class="row mt-3">
 				<div class="col-12">
-					<img src="./img/icons/logoWhite.png" class="d-inline-block" alt="">
+					<img src="./img/icons/logoWhite.png" class="d-inline-block" alt="Logo de Lhotse">
 					<p class="d-inline-block footer_desc">©2022 Lhotse Centro de Ski Company. Todos los derechos reservados.</p>
 				</div>
 			</div>
