@@ -11,40 +11,35 @@
 </head>
 <body>
 	<header>
-		<nav class="mainNav">
-			<div class="mainNav__headerLogo">
-				<a href="../index.html"><img src="../img/icons/headerLogoC.png" class="mainNav__headerLogo__icon" alt="Logo de Lhotse"></a>
-			</div>
-			<input type="checkbox" id="check" class="mainNav__checkbox">
-			<div class="mainNav__listCont">
-				<ul type="none" class="mainNav__listCont__list">
-					<li class="mainNav__listCont__list__item">
-						<a href="./galery.html" class="mainNav__listCont__list__item__link">Galería</a>
-					</li>
-					<li class="mainNav__listCont__list__item">
-						<a href="./location.html" class="mainNav__listCont__list__item__link">Ubicación</a>
-					</li>
-					<li class="mainNav__listCont__list__item">
-						<a href="../notReady/notReady.html" class="mainNav__listCont__list__item__link">Estado</a>
-					</li>
-					<li class="mainNav__listCont__list__item">
-						<a href="../notReady/notReady.html" class="mainNav__listCont__list__item__link">Trabaja con nosotros</a>
-					</li>
-				</ul>
-			</div>
-			<div class="mainNav__resp">
-				<a class="mainNav__resp__weather" href="https://www.meteored.com.ar/tiempo-en_San+Carlos+de+Bariloche-America+Sur-Argentina-Rio+Negro-SAZS-1-16916.html" target="_blank">
-					<div class="mainNav__resp__weather__graphCont">
-							<img src="../img/icons/weatherIcon.png" class="mainNav__resp__weather__graphCont__img">
-							<div class="mainNav__resp__weather__graphCont__temp">
-							<span class="mainNav__resp__weather__graphCont__temp__number">7</span>
-							<span class="mainNav__resp__weather__graphCont__temp__unit">C°</span>
-						</div>
-					</div>
+		<nav class="navbar navbar-expand-md">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="../index.html">
+					<img src="../img/icons/headerLogoC.png" class="img-fluid" alt="Logo de Lhotse">
 				</a>
-				<label for="check" class="mainNav__resp__label">
-					<i class="fa-solid fa-bars mainNav__resp__label__menuIcon"></i>
-				</label>
+				<div class="navbar-toggler border-0">
+					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+						<i class="fa-solid fa-bars mainNav__resp__label__menuIcon"></i>
+					</button>
+				</div>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav container-fluid justify-content-around mb-2 mb-lg-0">
+						<li class="nav-item">
+							<a class="nav-link text-uppercase" aria-current="page" href="../index.html">Inicio</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link text-uppercase" href="./state.html">Estado</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link text-uppercase" href="./work.html">Trabaja con nosotros</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link text-uppercase" href="./galery.html">Galería</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link text-uppercase" href="./location.html">Ubicación</a>
+						</li>
+					</ul>
+				</div>
 			</div>
 		</nav>
 	</header>
