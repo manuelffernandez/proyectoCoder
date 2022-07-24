@@ -33,14 +33,6 @@ body {
 	font-family: 'Bebas Neue';
 }
 
-.title__active__b {
-	color: var(--color-blue);
-}
-
-.title__active__y {
-	color: var(--color-yellow);
-}
-
 .row {
 	height: auto;
 	margin-bottom: 3.125rem; /* 50/16 */
