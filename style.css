@@ -41,6 +41,10 @@ body {
 	color: var(--color-white);
 }
 
+.roboto {
+	font-family: 'Roboto';
+}
+
 .title {
 	font-family: 'Noto Sans JP';
 }
@@ -108,10 +112,6 @@ body {
 /**************   NAVBAR   **************/
 .navbar {
 	background-color: var(--color-blue);
-}
-
-.navbar-toggler {
-	color: var(--color-white);
 }
 
 .nav-link {
@@ -457,7 +457,6 @@ body {
 /*************************************          FOOTER          *************************************/
 .footer {
 	background-color: var(--color-blue);
-	color: var(--color-white);
 }
 
 .data__list__item {
@@ -466,7 +465,6 @@ body {
 
 .data__list__item__link {
 	text-decoration: none;
-	color: var(--color-white);
 }
 
 .data__list__item__link:hover {
@@ -476,7 +474,6 @@ body {
 
 .nets__links__item {
 	font-size: 1.5rem;
-	color: var(--color-white);
 	transition: 0.3s;
 }
 
@@ -484,7 +481,7 @@ body {
 	color: var(--color-yellow);
 }
 
-.footer_desc {
+.footer__desc {
 	font-size: 0.8rem;
 }
 
