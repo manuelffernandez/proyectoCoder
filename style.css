@@ -41,6 +41,10 @@ body {
 	color: var(--color-white);
 }
 
+.font__black {
+	color: black;
+}
+
 .roboto {
 	font-family: 'Roboto';
 }
@@ -220,6 +224,43 @@ body {
 	position: absolute;
 	left: 0;
 	right: 0;
+}
+
+
+
+
+
+
+
+
+
+
+/*************************************          ESTADO          *************************************/
+.stateImgCont {
+	position: relative;
+	height: 28rem;
+	background: black;
+}
+
+.stateImgCont__img {
+	background-image: url(./img/state/mainState.jpg);
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-position: center;
+	background-size: cover;
+	opacity: 0.8;
+}
+
+.accordion-button {
+	background-color: var(--color-blue);
+}
+
+.accordion-button[aria-expanded="true"] {
+	background-color: white;
+	color: var(--color-blue);
 }
 
 
