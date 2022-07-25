@@ -43,67 +43,88 @@
 			</div>
 		</nav>
 	</header>
-	<main>
-		<div class="row1 row"></div>
-		<div class="main">
-			<div class="cont">
-				<div class="cont__header">
-					<h2 class="cont__header__title title">Trabajá en LHOTSE</h2>
-				</div>
-				<div class="cont__desc">
-					<p>En Centro de Ski Lhotse estamos incorporando continuamente gente a nuestro grupo de trabajo. Nos gusta
-					mantener un ambiente de trabajo dinámico. Si querés sumarte a la aventura de trabajar en la montaña con un
-					equipo de profesionales capacitados que conecten con los clientes a través del compromiso, la integridad y la
-					calidad de los servicios, no dudes en contactarte con nosotros.</p>
-				</div>
-				<div class="cont__form">
-					<div class="main">
-						<form action="" method="get" enctype="multipart/form-data">
-							<fieldset>
-								<legend>Formulario</legend>
-								<label for="nombre">Nombre y apellido</label><br>
-								<input type="text" name="nombre" placeholder="Manuel Fernández" required class="text"><br><br>
-
-								<label for="mail">Email</label><br>
-								<input type="email" name="mail" placeholder="hola@comoestas.com" required class="text"><br><br>
-
-								<label for="sexo">Sexo</label><br>
-								<input type="radio" name="sexo" value="Mujer" required>
-								<span>Mujer</span><br>
-								<input type="radio" name="sexo" value="Hombre" required>
-								<span>Hombre</span><br>
-								<input type="radio" name="sexo" value="Prefiero no decirlo" required>
-								<span>Prefiero no decirlo</span><br><br>
-
-								<label for="edad">Edad</label><br>
-								<input type="number" name="edad" placeholder="35" required><br><br>
-
-								<label for="puesto">Listado de puestos</label><br>
-								<select name="puesto" required>
-									<option value="">Elija una opción</option>
-									<option value="Cajero">Cajero</option>
-									<option value="Atención telefónica">Atención telefónica</option>
-									<option value="Operario de medio de elevación">Operario de medio de elevación</option>
-									<option value="Mecánico">Mecánico</option>
-									<option value="Patrullero">Patrullero</option>
-								</select><br><br>
-
-								<label for="intro">Contanos algo sobre vos</label><br>
-								<textarea name="intro" rows="3" cols="50" placeholder="Ej.: Soy Manuel y me destaco en..." class="text"></textarea><br><br>
-
-								<label for="cv">Adjunta tu CV</label><br>
-								<input type="file" accept=".doc, .docx, .pdf" required><br><br>
-								<div class="buttons">
-									<input type="submit" value="Enviar formulario" class="button">
-									<input type="reset" value="Me arrepentí..." class="button"></input>
-								</div>
-							</fieldset>
-						</form>
+	<section>
+			<div class="container">
+				<h1 class="text-center m-3 text-uppercase title">Trabajá en <span class="font__yellow">Lhotse</span></h1>
+				<p class="fst-italic text-center mb-3 roboto">Sumate a nuestro equipo de trabajo.</p>
+			</div>
+			<div class="container mb-5">
+				<div class="row">
+					<div class="offset-1 col-10">
+						<hr>
 					</div>
 				</div>
 			</div>
-		</div>
-	</main>
+			<div class="container mb-5 p-3 formCard">
+				<div class="container">
+					<h2 class="text-uppercase font__blue roboto">Postulate</h2>
+					<form class="row g-3">
+						<div class="col-md-6 mb-4">
+							<label for="firstName" class="form-label">Nombre</label>
+							<input type="text" id="firstName" class="form-control" placeholder="Manuel" required>
+						</div>
+						<div class="col-md-6 mb-4">
+							<label for="lastName" class="form-label">Apellido</label>
+							<input type="text" class="form-control" id="lastName" placeholder="Fernandez" required>
+						</div>
+						<div class="col-md-8 mb-4">
+							<label for="exampleFormControlInput1" class="form-label">Dirección de email</label>
+							<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com" required>
+						</div>
+						<div class="col-md-4 mb-4">
+							<label for="age" class="form-label">Edad</label>
+							<input type="number" class="form-control" id="age" min="18" max="60" placeholder="25..." required>
+						</div>
+						<div class="col-12 mb-4">
+							<p>Sexo</p>
+							<div class="form-check">
+								<input class="form-check-input" type="radio" name="sex" id="men" value="hombre" required>
+								<label class="form-check-label" for="men">
+									Mujer
+								</label>
+							</div>
+							<div class="form-check">
+								<input class="form-check-input" type="radio" name="sex" id="women" value="mujer" required>
+								<label class="form-check-label" for="women">
+									Hombre
+								</label>
+							</div>
+							<div class="form-check">
+								<input class="form-check-input" type="radio" name="sex" id="NTDH" value="noEspecificado" required>
+								<label class="form-check-label" for="NTDH">
+									Prefiero no decirlo
+								</label>
+							</div>
+						</div>
+						<div class="col-12 mb-4">
+							<label for="comment" class="form-label">Contanos algo sobre vos</label>
+							<textarea name="" id="comment" cols="30" rows="3" class="form-control textareaForm" placeholder="Ej.: Soy Manuel y me destaco en..."></textarea>
+						</div>
+						<div class="col-12 mb-4">
+							<p>Puesto a aplicar</p>
+							<select class="form-select" required>
+								<option value="" selected>Elija un puesto de trabajo</option>
+								<option value="Cajero">Cajero</option>
+								<option value="Atención telefónica">Atención telefónica</option>
+								<option value="Operario">Operario de medio de elevación</option>
+								<option value="Mecánico">Mecánico</option>
+								<option value="Patrullero">Patrullero</option>
+							</select>
+						</div>
+						<div class="mb-4">
+							<label for="cvFile" class="form-label">Adjunta tu CV</label>
+							<input class="form-control" type="file" accept=".doc, .docx, .pdf" id="cvFile" required>
+						</div>
+						<div class="col-6">
+							<button class="btn btn-primary" type="submit">Enviar datos</button>
+						</div>
+						<div class="col-6">
+							<button class="btn btn-primary" type="reset">Borrar datos</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</section>
 	<footer>
 		<div class="container-fluid text-center footer font__white">
 			<div class="row">
