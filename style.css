@@ -29,6 +29,14 @@ body {
 	background-color: var(--color-white);
 }
 
+.bg__blue {
+	background-color: var(--color-blue);
+}
+
+.bg__yellow {
+	background-color: var(--color-yellow);
+}
+
 .font__blue {
 	color: var(--color-blue);
 }
@@ -136,12 +144,11 @@ body {
 
 
 /*************************************          INDEX          *************************************/
-.carousel-control-next,
-.carousel-control-prev {
+.botonMuyAncho {
 	width: 10%;
 }
 
-.carousel-item {
+.mainCarouselItem {
 	position: relative;
 	height: 32rem;
 	background: black;
@@ -191,15 +198,6 @@ body {
 
 .slide__img3 {
 	background-image: url(./img/main/main3.jpg);
-}
-
-.card-body {
-	background-color: var(--color-yellow);
-}
-
-.card-title {
-	word-spacing: 0.5rem;
-	letter-spacing: 0.5rem;
 }
 
 .imgCont {
@@ -254,11 +252,7 @@ body {
 	opacity: 0.8;
 }
 
-.accordion-button {
-	background-color: var(--color-blue);
-}
-
-.accordion-button[aria-expanded="true"] {
+.accordion-buttonState[aria-expanded="true"] {
 	background-color: white;
 	color: var(--color-blue);
 }
