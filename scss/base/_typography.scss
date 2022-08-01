@@ -1,0 +1,22 @@
+/* 'Noto Sans JP' */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500&family=Roboto+Mono:wght@100&display=swap'); 
+/* 'Roboto' */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap');
+/* 'Staatliches' */
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+body {
+	font-family: sans-serif;
+}
+
+.roboto {
+	font-family: 'Roboto';
+}
+
+.staatliches {
+	font-family: 'Staatliches';
+}
+
+.title {
+	font-family: 'Noto Sans JP';
+}

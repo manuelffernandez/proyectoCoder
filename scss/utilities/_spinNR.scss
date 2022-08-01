@@ -1,0 +1,12 @@
+.containerNR__one__gear {
+	display: flex;
+	align-items: center;
+	font-size: 3.125em; /* 50/16 */
+	animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+	100% {
+		transform: rotate(360deg);
+	}
+}
