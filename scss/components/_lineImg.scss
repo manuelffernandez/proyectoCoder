@@ -1,0 +1,15 @@
+.imgCont {
+	position: relative;
+	height: 28rem;
+	background: black;
+	&__img {
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		background-position: center;
+		background-size: cover;
+		opacity: 0.8;	
+	}
+}

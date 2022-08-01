@@ -1,0 +1,17 @@
+.data__list__item__link {
+	text-decoration: none;
+}
+
+.data__list__item__link:hover {
+	color: var(--color-white);
+	text-decoration: underline;
+}
+
+.nets__links__item {
+	font-size: 1.5rem;
+	transition: 0.3s;
+}
+
+.nets__links__item:hover {
+	color: $colorYellow;
+}

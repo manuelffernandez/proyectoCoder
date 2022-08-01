@@ -1,0 +1,56 @@
+
+
+.botonMuyAncho {
+	width: 10%;
+}
+
+
+.mainCarouselItem {
+	position: relative;
+	height: 32rem;
+	background: black;
+
+	.slide__img {
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		background-position: center;
+		background-size: cover;
+		opacity: 0.7;
+	}
+	.slide__img1 {
+		@extend .slide__img;
+		background-image: url(./img/main/main1.jpg);
+	}
+	.slide__img2 {
+		@extend .slide__img;
+		background-image: url(./img/main/main2.jpg);
+	}
+	.slide__img3 {
+		@extend .slide__img;
+		background-image: url(./img/main/main3.jpg);
+	}
+	.carousel__data__cont {
+		width: 80%;
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		padding-bottom: 3rem;
+
+		.logo__cont {
+			margin-bottom: 1rem;
+
+			img {
+				width: 3.5rem; /* 50/16 */
+				margin-right: 1rem;
+			}
+			h2 {
+				word-spacing: 0.3rem;
+				letter-spacing: 0.3rem;
+			}
+		}
+	}
+}

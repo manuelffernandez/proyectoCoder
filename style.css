@@ -1,321 +1,293 @@
-
-
-/**************   TIPOGRAFÍAS   **************/
-/*Texto comun: 'Noto Sans JP' */
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500&family=Roboto+Mono:wght@100&display=swap'); 
-/*'Roboto'*/
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap');
-/*'Bebas Neue'*/
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-
-
-/**************   PROPIEDADES GENERALES   **************/
-:root {
-	--color-white: #EFF2F1;
-	--color-dark-white: #C7C9C9;
-	--color-blue: #4059AD;
-	--color-light-blue: #637EDB;
-	--color-dark-blue: #2B3F80;
-	--color-yellow:  #F4B942;
-	--color-light-yellow: #fad487;
-
-	--nav-anim-dur: 300ms;
-	--nav-item-delay: 350ms;
-	--img-dur: 250ms;
-	--img-delay: 600ms;
-}
-
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500&family=Roboto+Mono:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
 body {
-	background-color: var(--color-white);
+  background-color: #EFF2F1;
 }
 
-.bg__blue {
-	background-color: var(--color-blue);
-}
-
-.bg__yellow {
-	background-color: var(--color-yellow);
-}
-
-.font__blue {
-	color: var(--color-blue);
-}
-
-.font__yellow {
-	color: var(--color-yellow);
-}
-
-.font__white {
-	color: var(--color-white);
-}
-
-.font__black {
-	color: black;
+/* 'Noto Sans JP' */
+/* 'Roboto' */
+/* 'Staatliches' */
+body {
+  font-family: sans-serif;
 }
 
 .roboto {
-	font-family: 'Roboto';
+  font-family: "Roboto";
+}
+
+.staatliches {
+  font-family: "Staatliches";
 }
 
 .title {
-	font-family: 'Noto Sans JP';
+  font-family: "Noto Sans JP";
 }
 
-
-
-
-
-
-
-
-
-
-/*************************************          HEADER          *************************************/
-/**************   NAVBAR   **************/
-.navbar {
-	background-color: var(--color-blue);
-}
-
-.nav-link {
-	color: var(--color-dark-white);
-}
-
-.nav-link:hover {
-	color: var(--color-white);
-}
-
-
-
-
-
-
-
-
-
-
-/*************************************          INDEX          *************************************/
-.botonMuyAncho {
-	width: 10%;
-}
-
-.mainCarouselItem {
-	position: relative;
-	height: 32rem;
-	background: black;
-}
-
-.carousel__data__cont {
-	width: 80%;
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	padding-bottom: 3rem;
-}
-
-.logo__cont {
-	margin-bottom: 1rem;
-}
-
-.logo__cont > img {
-	width: 3.5rem; /* 50/16 */
-	margin-right: 1rem;	
-}
-
-.logo__cont > h2 {
-	word-spacing: 0.3rem;
-	letter-spacing: 0.3rem;
-}
-
-.slide__img {
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	background-position: center;
-	background-size: cover;
-	opacity: 0.7;
-}
-
-.slide__img1 {
-	background-image: url(./img/main/main1.jpg);
-}
-
-.slide__img2 {
-	background-image: url(./img/main/main2.jpg);
-}
-
-.slide__img3 {
-	background-image: url(./img/main/main3.jpg);
-}
-
-.imgCont {
-	position: relative;
-	height: 28rem;
-	background: black;
-}
-
-.imgCont__img {
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	background-image: url(./img/main/main4.jpg);
-	background-position: center;
-	background-size: cover;
-	opacity: 0.8;
-}
-
-.work__data {
-	position: absolute;
-	left: 0;
-	right: 0;
-}
-
-
-
-
-
-
-
-
-
-
-/*************************************          ESTADO          *************************************/
-.stateImgCont {
-	position: relative;
-	height: 28rem;
-	background: black;
-}
-
-.stateImgCont__img {
-	background-image: url(./img/state/mainState.jpg);
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	background-position: center;
-	background-size: cover;
-	opacity: 0.8;
-}
-
-.accordion-buttonState[aria-expanded="true"] {
-	background-color: white;
-	color: var(--color-blue);
-}
-
-
-
-
-
-
-
-
-
-
-/*************************************          TRABAJO          *************************************/
-.formCard {
-	border: 1px solid grey;
-	border-radius: 0.5em; /* 8/16 */
-}
-
-.textareaForm {
-	resize: none;
-}
-
-
-
-
-
-
-
-
-
-
-/*************************************          GALERIA          *************************************/
-.galeryImgCont {
-	position: relative;
-	height: 28rem;
-	background: black;
-}
-
-.galeryImgCont__img {
-	background-image: url(./img/galery/mainGalery.jpg);
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	background-position: center;
-	background-size: cover;
-	opacity: 0.8;
-}
-
-
-
-
-
-
-
-
-/*************************************          UBICACION         *************************************/ 
-.locationImgCont {
-	position: relative;
-	height: 28rem;
-	background: black;
-}
-
-.locationImgCont__img {
-	background-image: url(./img/location/mainLocation.jpg);
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	background-position: center;
-	background-size: cover;
-	opacity: 0.8;
-}
-
-
-
-
-
-
-
-
-
-
-/*************************************          FOOTER          *************************************/
-.footer {
-	background-color: var(--color-blue);
-}
-
-.data__list__item {
-	font-size: 0.9rem;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .data__list__item__link {
-	text-decoration: none;
+  text-decoration: none;
 }
 
 .data__list__item__link:hover {
-	color: var(--color-white);
-	text-decoration: underline;
+  color: var(--color-white);
+  text-decoration: underline;
 }
 
 .nets__links__item {
-	font-size: 1.5rem;
-	transition: 0.3s;
+  font-size: 1.5rem;
+  transition: 0.3s;
 }
 
 .nets__links__item:hover {
-	color: var(--color-yellow);
+  color: #F4B942;
 }
 
-.footer__desc {
-	font-size: 0.8rem;
+.nav-link:hover {
+  color: #EFF2F1;
 }
+
+.imgCont__indexImg {
+  background-image: url(./img/main/main4.jpg);
+}
+
+.work__data {
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.accordion-buttonState[aria-expanded=true] {
+  background-color: white;
+  color: #4059AD;
+}
+
+.formCard {
+  border: 1px solid grey;
+  border-radius: 0.5em; /* 8/16 */
+}
+
+.textareaForm {
+  resize: none;
+}
+
+.containerNR {
+  font-size: 16px;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.containerNR::before {
+  background-image: url(./img/icons/background.png);
+  background-repeat: repeat;
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+}
+.containerNR__one {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 55%;
+  padding: 12px;
+  margin: 3.125em;
+  font-size: 1.5em; /* 24/16 */
+  background-color: #4059AD;
+  color: #EFF2F1;
+}
+.containerNR__one__title {
+  text-align: center;
+  margin-right: 1.3em; /* 24/16 */
+}
+
+.bg__blue {
+  background-color: #4059AD;
+}
+
+.bg__yellow {
+  background-color: #F4B942;
+}
+
+.font__blue {
+  color: #4059AD;
+}
+
+.font__yellow {
+  color: #F4B942;
+}
+
+.font__white {
+  color: #EFF2F1;
+}
+
+.font__darkWhite {
+  color: #C7C9C9;
+}
+
+.font__black {
+  color: black;
+}
+
+@media only screen and (max-width: 1250px) {
+  .containerNR {
+    font-size: 12px;
+  }
+}
+@media only screen and (max-width: 985px) {
+  .containerNR__one__title {
+    margin-right: 0;
+    margin-bottom: 1em;
+  }
+  .containerNR__one {
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 596px) {
+  .containerNR {
+    font-size: 11px;
+  }
+  .containerNR__one {
+    width: 100%;
+  }
+}
+.containerNR__one__gear {
+  display: flex;
+  align-items: center;
+  font-size: 3.125em; /* 50/16 */
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.btn__hovY:hover {
+  background-color: #F4B942;
+  border-color: #F4B942;
+}
+
+.botonMuyAncho {
+  width: 10%;
+}
+
+.mainCarouselItem {
+  position: relative;
+  height: 32rem;
+  background: black;
+}
+.mainCarouselItem .slide__img, .mainCarouselItem .slide__img3, .mainCarouselItem .slide__img2, .mainCarouselItem .slide__img1 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-position: center;
+  background-size: cover;
+  opacity: 0.7;
+}
+.mainCarouselItem .slide__img1 {
+  background-image: url(./img/main/main1.jpg);
+}
+.mainCarouselItem .slide__img2 {
+  background-image: url(./img/main/main2.jpg);
+}
+.mainCarouselItem .slide__img3 {
+  background-image: url(./img/main/main3.jpg);
+}
+.mainCarouselItem .carousel__data__cont {
+  width: 80%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding-bottom: 3rem;
+}
+.mainCarouselItem .carousel__data__cont .logo__cont {
+  margin-bottom: 1rem;
+}
+.mainCarouselItem .carousel__data__cont .logo__cont img {
+  width: 3.5rem; /* 50/16 */
+  margin-right: 1rem;
+}
+.mainCarouselItem .carousel__data__cont .logo__cont h2 {
+  word-spacing: 0.3rem;
+  letter-spacing: 0.3rem;
+}
+
+.imgCont {
+  position: relative;
+  height: 28rem;
+  background: black;
+}
+.imgCont__img, .imgCont__galeryImg, .imgCont__indexImg, .imgCont__locationImg, .imgCont__stateImg {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-position: center;
+  background-size: cover;
+  opacity: 0.8;
+}
+
+.containerNR__two {
+  margin: 3.125em;
+}
+.containerNR__two__link {
+  text-decoration: none;
+}
+.containerNR__two__link__button {
+  position: relative;
+  padding: 1.25em 3.125em; /* 20/16 */ /* 50/16 */
+  background-color: #4059AD;
+}
+.containerNR__two__link__button::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+  background-color: #F4B942;
+  opacity: 0.7;
+  transition: all 0.3s ease;
+}
+.containerNR__two__link__button::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+  background-color: #F4B942;
+  transition: all 0.3s ease;
+  opacity: 0.4;
+}
+.containerNR__two__link__button:hover::before {
+  transform: translate(0.625em, 0.625em);
+}
+.containerNR__two__link__button:hover::after {
+  transform: translate(1.25em, 1.25em);
+}
+.containerNR__two__link__button__text {
+  text-align: center;
+  font-size: 1.5em; /* 24/16 */
+  color: #EFF2F1;
+}
+
+/*# sourceMappingURL=style.css.map */

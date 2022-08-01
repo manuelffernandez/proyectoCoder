@@ -1,0 +1,10 @@
+.imgCont__indexImg {
+	@extend .imgCont__img;
+	background-image: url(./img/main/main4.jpg);
+}
+
+.work__data {
+	position: absolute;
+	left: 0;
+	right: 0;
+}
