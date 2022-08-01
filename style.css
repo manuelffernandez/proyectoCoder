@@ -49,6 +49,10 @@ body {
 	color: var(--color-white);
 }
 
+.font__darkWhite {
+	color: var(--color-dark-white);
+}
+
 .font__black {
 	color: black;
 }
@@ -72,14 +76,6 @@ body {
 
 /*************************************          HEADER          *************************************/
 /**************   NAVBAR   **************/
-.navbar {
-	background-color: var(--color-blue);
-}
-
-.nav-link {
-	color: var(--color-dark-white);
-}
-
 .nav-link:hover {
 	color: var(--color-white);
 }
@@ -290,10 +286,6 @@ body {
 
 
 /*************************************          FOOTER          *************************************/
-.footer {
-	background-color: var(--color-blue);
-}
-
 .data__list__item {
 	font-size: 0.9rem;
 }
