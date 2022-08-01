@@ -1,0 +1,24 @@
+@media only screen and (max-width: 1250px) {
+	.containerNR {
+		font-size: 12px;
+	}
+}
+
+@media only screen and (max-width: 985px) {
+	.containerNR__one__title {
+		margin-right: 0;
+		margin-bottom: 1em;
+	}
+	.containerNR__one {
+		flex-direction: column;
+	}
+}
+
+@media only screen and (max-width: 596px) {
+	.containerNR {
+		font-size: 11px;
+	}
+	.containerNR__one {
+		width: 100%;
+	}
+}

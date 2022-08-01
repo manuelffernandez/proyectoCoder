@@ -1,0 +1,9 @@
+.imgCont__stateImg {
+	@extend .imgCont__img
+	// background-image: url(./img/state/mainState.jpg);aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+}
+
+.accordion-buttonState[aria-expanded="true"] {
+	background-color: white;
+	color: $colorBlue;
+}

@@ -1,0 +1,22 @@
+@import './base/colors';
+@import './base/typography';
+@import './base/normalize';
+
+@import './pages/footer';
+@import './pages/galery';
+@import './pages/header';
+@import './pages/index';
+@import './pages/location';
+@import './pages/state';
+@import './pages/work';
+@import './pages/notReady';
+
+@import './utilities/bgc';
+@import './utilities/font-color';
+@import './utilities/mqryNR';
+@import './utilities/spinNR';
+
+@import './components/buttons';
+@import './components/carousel';
+@import './components/lineImg';
+@import './components/btnNR';
