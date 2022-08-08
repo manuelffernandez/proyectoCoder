@@ -1,9 +1,21 @@
 .imgCont__stateImg {
-	@extend .imgCont__img
-	// background-image: url(./img/state/mainState.jpg);aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+	@extend .imgCont__img;
+	background-image: url(./img/state/mainState.jpg);
 }
 
 .accordion-buttonState[aria-expanded="true"] {
 	background-color: white;
 	color: $colorBlue;
+}
+
+$symbols:(
+	easy: green,
+	medium: orange,
+	hard: red
+);
+
+@each $type, $color in $symbols{
+	.symbol__#{$type}{
+		color: $color;
+	}
 }

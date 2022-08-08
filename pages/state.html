@@ -3,6 +3,9 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Keyword y description -->
+	<meta name="description" content="Enterate que medios de elevación, senderos y pistas estan funcionando y sus dificultades.">
+	<meta name="keywords" content="trekking, ski, snowboard, funcionamiento, actividades, pistas, estado, aerosilla, lhotse">
 	<!-- fontAwesome -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
 	<!-- Bootstrap css -->
@@ -11,14 +14,14 @@
 	<link rel="stylesheet" type="text/css" href="../style.css">
 	<!-- favicon -->
 	<link rel="shortcut icon" href="../img/icons/favicon.png">
-	<title>Lhotse Ski | Estado</title>
+	<title>Cerro Lhotse | Estado</title>
 </head>
 <body>
 	<header>
 		<nav class="navbar navbar-expand-md bg__blue">
 			<div class="container-fluid">
 				<a class="navbar-brand" href="../index.html">
-					<img src="../img/icons/headerLogoC.png" class="img-fluid" alt="Logo de Lhotse">
+					<img src="../img/icons/headerLogoC.png" class="img-fluid" alt="logo de Lhotse">
 				</a>
 				<div class="navbar-toggler border-0 font__white">
 					<button class="navbar-toggler font__white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,7 +33,7 @@
 						<li class="nav-item">
 							<a class="nav-link text-uppercase font__darkWhite" aria-current="page" href="../index.html">Inicio</a>
 						</li>
-						<li class="nav-item">
+						<li class="nav-item link__active">
 							<a class="nav-link text-uppercase font__darkWhite" href="./state.html">Estado</a>
 						</li>
 						<li class="nav-item">
@@ -49,11 +52,11 @@
 	</header>
 	<main>
 		<section>
-			<div class="container-fluid stateImgCont">
-				<div class="stateImgCont__img"></div>
+			<div class="container-fluid imgCont">
+				<div class="imgCont__stateImg"></div>
 			</div>
 			<div class="container">
-				<h1 class="text-center text-uppercase m-5 title">Estado de <span class="font__yellow">servicios</span></h1>
+				<h1 class="text-center text-uppercase m-5 title">Funcionamiento de los <span class="font__yellow">servicios</span></h1>
 				<p class="fst-italic text-center mb-3 roboto">Enterate del estado de nuestro servicios y como operan.</p>
 			</div>
 			<div class="container mb-5">
@@ -132,9 +135,9 @@
 						<div class="accordion-body">
 							<h3 class="title text-uppercase font__blue">Referencias</h3>
 							<div class="container d-xl-flex justify-content-between mb-4">
-								<p><i class="fa-solid fa-circle font__blue"></i> Dificultad baja</p>
-								<p><i class="fa-solid fa-circle font__yellow"></i> Dificultad media</p>
-								<p><i class="fa-solid fa-circle font__black"></i> Dificultad alta</p>
+								<p><i class="fa-solid fa-minus symbol__easy"></i> Dificultad baja</p>
+								<p><i class="fa-solid fa-angle-up symbol__medium"></i> Dificultad media</p>
+								<p><i class="fa-solid fa-angles-up symbol__hard"></i> Dificultad alta</p>
 							</div>
 							<div class="table-responsive">
 								<table class="table align-middle">
@@ -149,27 +152,27 @@
 										<tr>
 											<th class="text-center" scope="row">Número 1</th>
 											<td class="text-center"><span class="text-success">Abierta</span></td>
-											<td class="text-center"><i class="fa-solid fa-circle font__blue"></td>
+											<td class="text-center"><i class="fa-solid fa-minus symbol__easy"></i></td>
 										</tr>
 										<tr>
 											<th class="text-center" scope="row">Número 2</th>
 											<td class="text-center"><span class="text-danger">Cerrada</span></td>
-											<td class="text-center"><i class="fa-solid fa-circle font__black"></i></td>
+											<td class="text-center"><i class="fa-solid fa-angles-up symbol__hard"></i></td>
 										</tr>
 										<tr>
 											<th class="text-center" scope="row">Número 3</th>
 											<td class="text-center"><span class="text-success">Abierta</span></td>
-											<td class="text-center"><i class="fa-solid fa-circle font__yellow"></i></td>
+											<td class="text-center"><i class="fa-solid fa-angle-up symbol__medium"></i></td>
 										</tr>
 										<tr>
 											<th class="text-center" scope="row">Número 4</th>
 											<td class="text-center"><span class="text-success">Abierta</span></td>
-											<td class="text-center"><i class="fa-solid fa-circle font__black"></i></td>
+											<td class="text-center"><i class="fa-solid fa-angles-up symbol__hard"></i></td>
 										</tr>
 										<tr>
 											<th class="text-center" scope="row">Número 5</th>
 											<td class="text-center"><span class="text-danger">Cerrada</span></td>
-											<td class="text-center"><i class="fa-solid fa-circle font__blue"></td>
+											<td class="text-center"><i class="fa-solid fa-minus symbol__easy"></i></td>
 										</tr>
 									</tbody>
 								</table>
@@ -192,9 +195,9 @@
 						<div class="accordion-body">
 							<h3 class="title text-uppercase font__blue">Referencias</h3>
 							<div class="container d-xl-flex justify-content-between mb-4">
-								<p><i class="fa-solid fa-circle font__blue"></i> Dificultad baja</p>
-								<p><i class="fa-solid fa-circle font__yellow"></i> Dificultad media</p>
-								<p><i class="fa-solid fa-circle font__black"></i> Dificultad alta</p>
+								<p><i class="fa-solid fa-minus symbol__easy"></i> Dificultad baja</p>
+								<p><i class="fa-solid fa-angle-up symbol__medium"></i> Dificultad media</p>
+								<p><i class="fa-solid fa-angles-up symbol__hard"></i> Dificultad alta</p>
 							</div>
 							<div class="table-responsive">
 								<table class="table align-middle">
@@ -208,22 +211,22 @@
 									<tbody class="table-group-divider">
 										<tr>
 											<th class="text-center" scope="row">Sendero 1</th>
-											<td class="text-center"><i class="fa-solid fa-circle font__blue"></td>
+											<td class="text-center"><i class="fa-solid fa-minus symbol__easy"></i></td>
 											<td class="text-center">10km</td>
 										</tr>
 										<tr>
 											<th class="text-center" scope="row">Sendero 2</th>
-											<td class="text-center"><i class="fa-solid fa-circle font__black"></i></td>
+											<td class="text-center"><i class="fa-solid fa-angles-up symbol__hard"></i></td>
 											<td class="text-center">15km</td>
 										</tr>
 										<tr>
 											<th class="text-center" scope="row">Sendero 3</th>
-											<td class="text-center"><i class="fa-solid fa-circle font__yellow"></i></td>
+											<td class="text-center"><i class="fa-solid fa-angle-up symbol__medium"></i></td>
 											<td class="text-center">8km</td>
 										</tr>
 										<tr>
 											<th class="text-center" scope="row">Sendero 4</th>
-											<td class="text-center"><i class="fa-solid fa-circle font__black"></i></td>
+											<td class="text-center"><i class="fa-solid fa-angles-up symbol__hard"></i></td>
 											<td class="text-center">3km</td>
 										</tr>
 									</tbody>
@@ -249,10 +252,10 @@
 				<div class="col-lg-2 col-sm-4 order-3 order-lg-2 text-sm-start">
 					<p class="pt-3 h5 fw-semibold">Links</p>
 					<ul class="list-unstyled">
-						<li><a href="./notReady.html" class="data__list__item__link font__white">Legales</a></li>
-						<li><a href="./notReady.html" class="data__list__item__link font__white">Terminos y condiciones</a></li>
-						<li><a href="./notReady.html" class="data__list__item__link font__white">Política de privacidad</a></li>
-						<li><a href="./notReady.html" class="data__list__item__link font__white">Sustentabilidad</a></li>
+						<li><a href="./notReady.html" rel="nofollow" class="data__list__item__link font__white">Legales</a></li>
+						<li><a href="./notReady.html" rel="nofollow" class="data__list__item__link font__white">Terminos y condiciones</a></li>
+						<li><a href="./notReady.html" rel="nofollow" class="data__list__item__link font__white">Política de privacidad</a></li>
+						<li><a href="./notReady.html" rel="nofollow" class="data__list__item__link font__white">Sustentabilidad</a></li>
 					</ul>
 				</div>
 				<div class="col-lg-2 col-sm-3 order-4 order-lg-3 text-sm-start">
@@ -269,16 +272,16 @@
 					<div class="container-fluid">
 						<ul class="list-unstyled d-flex flex-column flex-sm-row justify-content-evenly">
 							<li class="m-2 m-sm-0">
-								<a href="./notReady.html" class="nets__links__item font__white"><i class="fa-brands fa-youtube"></i></a>
+								<a href="./notReady.html" rel="nofollow" class="nets__links__item font__white"><i class="fa-brands fa-youtube"></i></a>
 							</li>
 							<li class="m-2 m-sm-0">
-								<a href="./notReady.html" class="nets__links__item font__white"><i class="fa-brands fa-facebook"></i></a>
+								<a href="./notReady.html" rel="nofollow" class="nets__links__item font__white"><i class="fa-brands fa-facebook"></i></a>
 							</li>
 							<li class="m-2 m-sm-0">
-								<a href="./notReady.html" class="nets__links__item font__white"><i class="fa-brands fa-instagram"></i></a>
+								<a href="./notReady.html" rel="nofollow" class="nets__links__item font__white"><i class="fa-brands fa-instagram"></i></a>
 							</li>
 							<li class="m-2 m-sm-0">
-								<a href="./notReady.html" class="nets__links__item font__white"><i class="fa-brands fa-linkedin-in"></i></a>
+								<a href="./notReady.html" rel="nofollow" class="nets__links__item font__white"><i class="fa-brands fa-linkedin-in"></i></a>
 							</li>
 						</ul>
 					</div>
@@ -286,7 +289,7 @@
 			</div>
 			<div class="row mt-3">
 				<div class="col-12">
-					<img src="../img/icons/logoWhite.png" class="d-inline-block" alt="">
+					<img src="../img/icons/logoWhite.png" class="d-inline-block" alt="logo de Lhotse">
 					<p class="d-inline-block footer__desc">©2022 Lhotse Centro de Ski Company. Todos los derechos reservados.</p>
 				</div>
 			</div>
