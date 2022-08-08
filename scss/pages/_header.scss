@@ -1,3 +1,7 @@
 .nav-link:hover {
 	color: $colorWhite;
 }
+
+.link__active {
+	border-bottom: 2px solid $colorYellow;
+}

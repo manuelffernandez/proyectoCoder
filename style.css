@@ -60,6 +60,10 @@ strong {
   color: #EFF2F1;
 }
 
+.link__active {
+  border-bottom: 2px solid #F4B942;
+}
+
 .imgCont__indexImg {
   background-image: url(./img/main/main4.jpg);
 }
