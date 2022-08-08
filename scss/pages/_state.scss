@@ -7,3 +7,15 @@
 	background-color: white;
 	color: $colorBlue;
 }
+
+$symbols:(
+	easy: green,
+	medium: orange,
+	hard: red
+);
+
+@each $type, $color in $symbols{
+	.symbol__#{$type}{
+		color: $color;
+	}
+}

@@ -1,3 +1,14 @@
+.befoAf {
+	@include size (100%, 100%);
+	content: '';
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	z-index: -1;
+	background-color: $colorYellow;
+	opacity: 0.7;
+	transition: all 0.3s ease;
+}
 .containerNR__two {
 	margin: $space-between-NR;
 
@@ -9,53 +20,14 @@
 			padding: 1.25em 3.125em; /* 20/16 */ /* 50/16 */
 			background-color: $colorBlue;
 
-			// .befoAf {
-			// 	content: '';
-			// 	width: 100%;
-			// 	height: 100%;
-			// 	position: absolute;
-			// 	left: 0;
-			// 	bottom: 0;
-			// 	z-index: -1;
-			// 	background-color: $colorYellow;
-			// 	opacity: 0.7;
-			// 	transition: all 0.3s ease;
-			// }
-			&::before {
-				// @extend .befoAf;
-				content: '';
-				width: 100%;
-				height: 100%;
-				position: absolute;
-				left: 0;
-				bottom: 0;
-				z-index: -1;
-				background-color: $colorYellow;
-				opacity: 0.7;
-				transition: all 0.3s ease;
-			}
+			&::before,
 			&::after {
-				// @extend .befoAf;
-				content: '';
-				width: 100%;
-				height: 100%;
-				position: absolute;
-				left: 0;
-				bottom: 0;
-				z-index: -1;
-				background-color: $colorYellow;
-				transition: all 0.3s ease;
-				opacity: 0.4;
-				// &:hover {
-				// 	transform: translate(1.25em, 1.25em); /* 20/16 */ /* 20/16 */
-				// }
+				@extend .befoAf;
 			}
 			&:hover {
 				&::before {
 					transform: translate(0.625em, 0.625em);
 				}
-			}
-			&:hover {
 				&::after {
 					transform: translate(1.25em, 1.25em);
 				}

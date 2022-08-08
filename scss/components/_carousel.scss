@@ -1,13 +1,11 @@
-
-
 .botonMuyAncho {
-	width: 10%;
+	@include size(10%, 100%);
 }
 
 
 .mainCarouselItem {
 	position: relative;
-	height: 32rem;
+	@include size(100%, 32rem);	
 	background: black;
 
 	.slide__img {
