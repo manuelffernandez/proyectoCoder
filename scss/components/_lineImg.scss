@@ -1,6 +1,6 @@
 .imgCont {
+	@include size(100%, 28rem);
 	position: relative;
-	height: 28rem;
 	background: black;
 	&__img {
 		position: absolute;
