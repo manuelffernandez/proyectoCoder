@@ -1,6 +1,6 @@
 .imgCont__stateImg {
-	@extend .imgCont__img
-	// background-image: url(./img/state/mainState.jpg);aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+	@extend .imgCont__img;
+	background-image: url(./img/state/mainState.jpg);
 }
 
 .accordion-buttonState[aria-expanded="true"] {

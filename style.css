@@ -48,6 +48,10 @@ body {
   color: #F4B942;
 }
 
+.imgCont__galeryImg {
+  background-image: url(./img/galery/mainGalery.jpg);
+}
+
 .nav-link:hover {
   color: #EFF2F1;
 }
@@ -60,6 +64,14 @@ body {
   position: absolute;
   left: 0;
   right: 0;
+}
+
+.imgCont__locationImg {
+  background-image: url(./img/location/mainLocation.jpg);
+}
+
+.imgCont__stateImg {
+  background-image: url(./img/state/mainState.jpg);
 }
 
 .accordion-buttonState[aria-expanded=true] {
@@ -86,7 +98,7 @@ body {
   flex-direction: column;
 }
 .containerNR::before {
-  background-image: url(./img/icons/background.png);
+  background-image: url(./img/icons/background.jpg);
   background-repeat: repeat;
   content: "";
   width: 100%;
