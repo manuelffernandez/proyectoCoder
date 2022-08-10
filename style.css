@@ -206,6 +206,17 @@ strong {
     transform: rotate(360deg);
   }
 }
+.btn-primary {
+  background-color: #4059AD;
+  border-color: #4059AD;
+}
+
+.btn__hovW:hover {
+  background-color: #EFF2F1;
+  border-color: #EFF2F1;
+  color: #4059AD;
+}
+
 .btn__hovY:hover {
   background-color: #F4B942;
   border-color: #F4B942;
