@@ -1,3 +1,14 @@
+.btn-primary {
+	background-color: $colorBlue;
+	border-color: $colorBlue;
+}
+
+.btn__hovW:hover {
+	background-color: $colorWhite;
+	border-color: $colorWhite;
+	color: $colorBlue;
+}
+
 .btn__hovY:hover {
 	background-color: $colorYellow;
 	border-color: $colorYellow;
