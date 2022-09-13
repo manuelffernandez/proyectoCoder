@@ -1,15 +1,22 @@
 # Final project of the Web Developer course by Coderhouse 
-## About this site :snowboarder:
 
-### Sitio web estático de un centro de ski ficticio "Centro de ski Lhotse".
+## About this site :globe_with_meridians:
 
-*  La identidad de marca (nombre, logo y paleta de colores) fueron construidos por mi.
+### Centro de ski Lhotse :snowboarder:
+This is a fictional ski resort static website that implements HTML, CSS&SCSS and Bootstrap as a Framework.
 
-* El sitio cuenta con 6 páginas en total: index, galeria, ubicacion, trabajo, estado y notReady. La función de notReady es redirigir al usuario a una página donde indique que esa sección todavía está en "desarrollo", las restantes cumplen con la temática definida.
+Some topics to remark:
+* The brand identity (name, logo and color palette) were created by me.
 
-* Dentro del repositorio también se encuentran 2 archivos en formato PDF. Uno explica los cambios que se realizaron en el proyecto con el fin de mejorar el SEO del sitio durante una de las etapas de pre-entrega. El otro es un presupuesto basado en los tiempos y diseño de este proyecto.
-##
-### Do you want to see the site?? Link to netlify :arrow_down:
+* This site has 6 pages: index, galery, location, work, state and notReady. The objective of notReady is to inform the user that the page he wants to visit is currently on "develope". The other pages fulfill their corresponding theme.
+
+* Inside the repo you can find two PDF documents. One of them explains the changes made in the proyect during one of the pre-submit stages to improve the SEO of the site. The other one is a budget based on the delivery-times and design of the proyect.
 
 ## Screenshot :iphone:
-https://cerro-lhotse.netlify.app/index.html
+<img src="readmeScreenshot/LhotseScreen.png">
+
+## Technologies used
+<img src="readmeScreenshot/tech.png">
+
+## Do you want to see the site?? Link to netlify :arrow_down:
+### https://cerro-lhotse.netlify.app/index.html
